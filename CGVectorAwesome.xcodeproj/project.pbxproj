@@ -11,10 +11,24 @@
 		51ED1E501D1E377300D71D71 /* CGVectorAwesome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51ED1E451D1E377300D71D71 /* CGVectorAwesome.framework */; };
 		51ED1E551D1E377400D71D71 /* CGVectorAwesomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51ED1E541D1E377400D71D71 /* CGVectorAwesomeTests.swift */; };
 		51ED1E601D1E379900D71D71 /* CGVector+Awesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51ED1E5F1D1E379900D71D71 /* CGVector+Awesome.swift */; };
+		51ED1E681D1E483100D71D71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51ED1E671D1E483100D71D71 /* AppDelegate.swift */; };
+		51ED1E6A1D1E483100D71D71 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 51ED1E691D1E483100D71D71 /* GameScene.sks */; };
+		51ED1E6C1D1E483100D71D71 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51ED1E6B1D1E483100D71D71 /* GameScene.swift */; };
+		51ED1E6E1D1E483100D71D71 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51ED1E6D1D1E483100D71D71 /* GameViewController.swift */; };
+		51ED1E711D1E483100D71D71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51ED1E6F1D1E483100D71D71 /* Main.storyboard */; };
+		51ED1E731D1E483100D71D71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51ED1E721D1E483100D71D71 /* Assets.xcassets */; };
+		51ED1E761D1E483100D71D71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51ED1E741D1E483100D71D71 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		51ED1E511D1E377300D71D71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51ED1E3C1D1E377300D71D71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51ED1E441D1E377300D71D71;
+			remoteInfo = CGVectorAwesome;
+		};
+		51ED1E7B1D1E483F00D71D71 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 51ED1E3C1D1E377300D71D71 /* Project object */;
 			proxyType = 1;
@@ -31,6 +45,15 @@
 		51ED1E541D1E377400D71D71 /* CGVectorAwesomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGVectorAwesomeTests.swift; sourceTree = "<group>"; };
 		51ED1E561D1E377400D71D71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51ED1E5F1D1E379900D71D71 /* CGVector+Awesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGVector+Awesome.swift"; sourceTree = "<group>"; };
+		51ED1E651D1E483100D71D71 /* Awesome Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Awesome Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51ED1E671D1E483100D71D71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		51ED1E691D1E483100D71D71 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		51ED1E6B1D1E483100D71D71 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		51ED1E6D1D1E483100D71D71 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		51ED1E701D1E483100D71D71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		51ED1E721D1E483100D71D71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51ED1E751D1E483100D71D71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		51ED1E771D1E483100D71D71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +72,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		51ED1E621D1E483100D71D71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -57,6 +87,7 @@
 			children = (
 				51ED1E471D1E377300D71D71 /* CGVectorAwesome */,
 				51ED1E531D1E377300D71D71 /* CGVectorAwesomeTests */,
+				51ED1E661D1E483100D71D71 /* Awesome Sample */,
 				51ED1E461D1E377300D71D71 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,6 +97,7 @@
 			children = (
 				51ED1E451D1E377300D71D71 /* CGVectorAwesome.framework */,
 				51ED1E4F1D1E377300D71D71 /* CGVectorAwesomeTests.xctest */,
+				51ED1E651D1E483100D71D71 /* Awesome Sample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,6 +119,21 @@
 				51ED1E561D1E377400D71D71 /* Info.plist */,
 			);
 			path = CGVectorAwesomeTests;
+			sourceTree = "<group>";
+		};
+		51ED1E661D1E483100D71D71 /* Awesome Sample */ = {
+			isa = PBXGroup;
+			children = (
+				51ED1E671D1E483100D71D71 /* AppDelegate.swift */,
+				51ED1E691D1E483100D71D71 /* GameScene.sks */,
+				51ED1E6B1D1E483100D71D71 /* GameScene.swift */,
+				51ED1E6D1D1E483100D71D71 /* GameViewController.swift */,
+				51ED1E6F1D1E483100D71D71 /* Main.storyboard */,
+				51ED1E721D1E483100D71D71 /* Assets.xcassets */,
+				51ED1E741D1E483100D71D71 /* LaunchScreen.storyboard */,
+				51ED1E771D1E483100D71D71 /* Info.plist */,
+			);
+			path = "Awesome Sample";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +186,24 @@
 			productReference = 51ED1E4F1D1E377300D71D71 /* CGVectorAwesomeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		51ED1E641D1E483100D71D71 /* Awesome Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51ED1E781D1E483100D71D71 /* Build configuration list for PBXNativeTarget "Awesome Sample" */;
+			buildPhases = (
+				51ED1E611D1E483100D71D71 /* Sources */,
+				51ED1E621D1E483100D71D71 /* Frameworks */,
+				51ED1E631D1E483100D71D71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51ED1E7C1D1E483F00D71D71 /* PBXTargetDependency */,
+			);
+			name = "Awesome Sample";
+			productName = "Awesome Sample";
+			productReference = 51ED1E651D1E483100D71D71 /* Awesome Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -155,6 +220,9 @@
 					51ED1E4E1D1E377300D71D71 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
+					51ED1E641D1E483100D71D71 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 				};
 			};
 			buildConfigurationList = 51ED1E3F1D1E377300D71D71 /* Build configuration list for PBXProject "CGVectorAwesome" */;
@@ -163,6 +231,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 51ED1E3B1D1E377300D71D71;
 			productRefGroup = 51ED1E461D1E377300D71D71 /* Products */;
@@ -171,6 +240,7 @@
 			targets = (
 				51ED1E441D1E377300D71D71 /* CGVectorAwesome */,
 				51ED1E4E1D1E377300D71D71 /* CGVectorAwesomeTests */,
+				51ED1E641D1E483100D71D71 /* Awesome Sample */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +257,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51ED1E631D1E483100D71D71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51ED1E6A1D1E483100D71D71 /* GameScene.sks in Resources */,
+				51ED1E761D1E483100D71D71 /* LaunchScreen.storyboard in Resources */,
+				51ED1E731D1E483100D71D71 /* Assets.xcassets in Resources */,
+				51ED1E711D1E483100D71D71 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +290,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		51ED1E611D1E483100D71D71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51ED1E6C1D1E483100D71D71 /* GameScene.swift in Sources */,
+				51ED1E6E1D1E483100D71D71 /* GameViewController.swift in Sources */,
+				51ED1E681D1E483100D71D71 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -217,7 +308,31 @@
 			target = 51ED1E441D1E377300D71D71 /* CGVectorAwesome */;
 			targetProxy = 51ED1E511D1E377300D71D71 /* PBXContainerItemProxy */;
 		};
+		51ED1E7C1D1E483F00D71D71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51ED1E441D1E377300D71D71 /* CGVectorAwesome */;
+			targetProxy = 51ED1E7B1D1E483F00D71D71 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		51ED1E6F1D1E483100D71D71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51ED1E701D1E483100D71D71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		51ED1E741D1E483100D71D71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51ED1E751D1E483100D71D71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		51ED1E571D1E377400D71D71 /* Debug */ = {
@@ -366,6 +481,29 @@
 			};
 			name = Release;
 		};
+		51ED1E791D1E483100D71D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				INFOPLIST_FILE = "Awesome Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.samgreen.Awesome-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		51ED1E7A1D1E483100D71D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Awesome Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.samgreen.Awesome-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -391,6 +529,14 @@
 			buildConfigurations = (
 				51ED1E5D1D1E377400D71D71 /* Debug */,
 				51ED1E5E1D1E377400D71D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		51ED1E781D1E483100D71D71 /* Build configuration list for PBXNativeTarget "Awesome Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51ED1E791D1E483100D71D71 /* Debug */,
+				51ED1E7A1D1E483100D71D71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
