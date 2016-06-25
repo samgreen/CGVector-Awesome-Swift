@@ -3,7 +3,7 @@ CGVector-Awesome-Swift
 
 This library has 100% test coverage.
 
-Additions to CoreGraphics CGVector, most useful with Apple's SpriteKit. This was ported from my Objective-C (CGVector-Awesome)[github.com/samgreen/CGVector-Awesome] library.
+Additions to CoreGraphics CGVector, most useful with Apple's SpriteKit. This was ported from my Objective-C [CGVector-Awesome](github.com/samgreen/CGVector-Awesome) library.
 
 # Extensions
 ```
