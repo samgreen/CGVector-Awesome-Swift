@@ -5,7 +5,6 @@
 //  Created by Sam Green on 6/24/16.
 //  Copyright © 2016 Sam Green. All rights reserved.
 //
-
 import Foundation
 import CoreGraphics
 
@@ -44,7 +43,7 @@ extension CGVector {
         }
         
         let scale = 1.0 / len
-        return multiply(scale)
+        return multiply(scalar: scale)
     }
     
     /* Creates a vector perpendicular to `vector` */
@@ -54,7 +53,7 @@ extension CGVector {
     
     /* Calculate the angle of between two vectors */
     func angleTo(vector: CGVector) -> CGFloat {
-        let dot = dotProduct(vector)
+        let dot = dotProduct(vector: vector)
         let magnitude = length() * vector.length()
         if magnitude == 0 {
             return 0
@@ -63,7 +62,7 @@ extension CGVector {
         let clampedMagnitude = max(min(Float(dot / magnitude), 1.0), -1.0)
         return CGFloat(acosf(clampedMagnitude))
     }
-
+    
     /* Calculate the angle of `vector` */
     func angle() -> CGFloat {
         return atan2(dx, dy)
@@ -86,11 +85,11 @@ extension CGVector {
     
     /* Calculate the distance between two vectors */
     func distance(vector: CGVector) -> CGFloat {
-        return vector.difference(self).length()
+        return vector.difference(vector: self).length()
     }
     
     /* Returns true if a given vector is perpendicular to this vector */
     func isPerpendicularTo(vector: CGVector) -> Bool {
-        return dotProduct(vector) == 0
+        return dotProduct(vector: vector) == 0
     }
 }
